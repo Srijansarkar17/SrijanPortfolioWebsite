@@ -21,21 +21,21 @@ export const Hero = () => {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden">
       {/* LightRays Background Effect */}
       <div className="absolute inset-0 w-full h-full z-0">
         <LightRays
           raysOrigin="top-center"
-          raysColor="#ffaa00"
+          raysColor="#ffffffff"
           raysSpeed={1.2}
-          lightSpread={0.4}        // Reduced for more focused, intense beams
-          rayLength={2.0}          // Increased for longer rays
+          lightSpread={0.7}
+          rayLength={2.0}
           followMouse={true}
           mouseInfluence={0.15}
-          noiseAmount={0.05}       // Reduced noise for cleaner look
-          distortion={0.1}         // Increased distortion for more dynamic effect
-          saturation={1.5}         // Increased color saturation
-          fadeDistance={1.5}       // Increased fade distance for longer visibility
+          noiseAmount={0.05}
+          distortion={0.1}
+          saturation={1.5}
+          fadeDistance={1.5}
           className="w-full h-full"
         />
       </div>
@@ -43,7 +43,7 @@ export const Hero = () => {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background z-1" />
 
-      {/* Content */}
+      {/* Main Content */}
       <div className="container mx-auto text-center space-y-8 animate-fade-in relative z-10">
         <div className="space-y-6">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
@@ -114,10 +114,11 @@ export const Hero = () => {
             <Phone className="h-6 w-6" />
           </a>
         </div>
+      </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="h-6 w-6 text-white/80" />
-        </div>
+      {/* Arrow at the bottom of the screen */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+        <ArrowDown className="h-6 w-6 text-white/80" />
       </div>
     </section>
   );

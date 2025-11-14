@@ -13,6 +13,41 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: [
+          'Inter',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          'sans-serif'
+        ],
+        inter: [
+          'Inter',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          'sans-serif'
+        ],
+      },
+      fontSize: {
+        'xs': ['12px', '1em'],
+        'sm': ['14px', '1em'],
+        'base': ['14px', '1em'],
+        'lg': ['16px', '1em'],
+        'xl': ['18px', '1.2em'],
+        '2xl': ['20px', '1.2em'],
+        '3xl': ['24px', '1.2em'],
+        '4xl': ['32px', '1.2em'],
+        '5xl': ['40px', '1.2em'],
+        '6xl': ['48px', '1.2em'],
+        '7xl': ['56px', '1.2em'],
+      },
+      letterSpacing: {
+        'tight': '-0.01em',
+        'tighter': '-0.02em',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -71,10 +106,21 @@ export default {
             height: "0",
           },
         },
+        "fade-in": {
+          from: {
+            opacity: "0",
+            transform: "translateY(10px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.5s ease-out",
       },
     },
   },

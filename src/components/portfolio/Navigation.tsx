@@ -1,5 +1,13 @@
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { IconHome, IconUser, IconMessage, IconBriefcase, IconAward, IconCode } from "@tabler/icons-react";
+import { 
+  IconHome, 
+  IconUser, 
+  IconMessage, 
+  IconBriefcase, 
+  IconAward, 
+  IconCode,
+  IconPhoto
+} from "@tabler/icons-react";
 
 const floatingNavItems = [
   {
@@ -31,6 +39,11 @@ const floatingNavItems = [
     name: "Achievements",
     link: "#achievements",
     icon: <IconAward className="h-4 w-4 text-white" />,
+  },
+  {
+    name: "Gallery",
+    link: "#gallery",
+    icon: <IconPhoto className="h-4 w-4 text-white" />, // Changed to photo icon
   },
   {
     name: "Contact",
