@@ -25,6 +25,13 @@ const projects = [
     tech: ["Python", "YOLOv11", "Flask", "Vanilla JS", "OpenCV"],
     github: "https://github.com/Srijansarkar17/Sunscope",
   },
+  {
+    title: "AI Powered Network Intrusion Detection System",
+    description:
+      "Built an AI-powered Network Intrusion Detection System (IDS) using the NSL-KDD dataset and AWS services to classify 38 attack types in real time, deployed through a SageMaker Canvas endpoint. Designed a scalable cloud pipeline with S3, Glue ETL, SageMaker, Bedrock (Mistral 7B), and Flask to automate data processing, deliver instant threat predictions, and generate intelligent attack analysis with remediation plans. Developed a full-stack monitoring dashboard with REST APIs, confidence scoring, and AI-driven security insights for enterprise-grade threat detection and reporting.",
+    tech: ["Python", "AWS SageMaker", "AWS Glue", "Flask", "JavaScript"],
+    github: "https://github.com/Srijansarkar17/Network-Intrusion-Detection-System-using-AWS",
+  },
 ];
 
 export const Projects = () => {

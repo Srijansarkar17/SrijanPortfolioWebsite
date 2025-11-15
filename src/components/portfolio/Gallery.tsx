@@ -55,11 +55,11 @@ export const Gallery = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Project <span className="text-gradient">Gallery</span>
+            <span className="text-gradient">Gallery</span>
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
-            Explore my AI and machine learning projects through this interactive 3D gallery. 
-            Click and drag to navigate, and click on any project to view it in detail.
+            Explore my journey through this interactive 3D gallery. 
+            Click and drag to navigate, and click on any image to view it in detail.
           </p>
         </div>
 

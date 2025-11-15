@@ -6,7 +6,7 @@ const experiences = [
     icon: Briefcase,
     title: "Software Engineer Intern",
     company: "SRM Technologies",
-    period: "Jun 2025 – Nov 2025",
+    period: "Jun 2025 - Nov 2025",
     points: [
       "Built backend for Smart Inventory Maintenance System",
       "Created data ingestion pipeline for automated SKU analysis",
