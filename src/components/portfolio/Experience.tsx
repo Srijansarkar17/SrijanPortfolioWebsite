@@ -6,7 +6,7 @@ const experiences = [
     icon: Briefcase,
     title: "Software Engineer Intern",
     company: "SRM Technologies",
-    period: "Jan 2025 – Present",
+    period: "Jun 2025 – Nov 2025",
     points: [
       "Built backend for Smart Inventory Maintenance System",
       "Created data ingestion pipeline for automated SKU analysis",
@@ -17,7 +17,7 @@ const experiences = [
     icon: FlaskConical,
     title: "Member",
     company: "Next Tech Lab, McCarthy Lab (International QS Awarded)",
-    period: "July 2024 – Present",
+    period: "July 2024 - Present",
     location: "Chennai, India",
     points: [
       "Developing a semantic retrieval framework for intelligent query interpretation",

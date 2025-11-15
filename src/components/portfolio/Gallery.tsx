@@ -34,7 +34,7 @@ const PROJECT_IMAGES = [
   },
   // Add more of your project images here
   {
-    src: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/public/static/img8.jpg',
     alt: 'Code Implementation'
   },
   {
@@ -66,7 +66,7 @@ export const Gallery = () => {
         {/* Dome Gallery Container */}
         <div 
           ref={galleryRef}
-          className="w-full h-[70vh] min-h-[500px] max-h-[800px] rounded-2xl overflow-hidden border border-border/50 bg-background/50 backdrop-blur-sm"
+          className="w-full h-[70vh] min-h-[500px] max-h-[800px] rounded-2xl overflow-hidden bg-background/50 backdrop-blur-sm"
         >
           <DomeGallery
             images={PROJECT_IMAGES}

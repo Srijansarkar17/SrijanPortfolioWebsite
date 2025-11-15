@@ -10,7 +10,11 @@ export const About = () => {
 
         <div className="text-center">
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed max-w-5xl mx-auto">
-            I'm a <Cover>Full Stack AI Engineer</Cover> with over 3 years of hands-on experience building end-to-end AI systems—from training machine learning models and deploying LLM-powered applications to engineering scalable full-stack platforms that bring these models to life. My work spans NLP, deep learning, agentic AI, and modern web development, allowing me to bridge the gap between powerful AI capabilities and real-world user experiences. I thrive in high-energy environments and truly love hackathons—they challenge me to innovate quickly, collaborate deeply, and transform bold ideas into polished working solutions. I'm driven by curiosity, creativity, and a constant desire to push the boundaries of what AI can do.
+            I'm a <Cover>Software Engineer</Cover> with over 3 years of experience building scalable, user-focused applications across the full stack. I specialize in designing efficient system architectures, writing clean and reliable code, and developing high-performance web platforms that deliver seamless user experiences.
+
+            I enjoy working across the entire lifecycle — from planning and building core features to optimizing performance, improving UI/UX flow, and deploying production-ready systems. I thrive in fast-paced environments and absolutely love hackathons — they push me to think creatively, collaborate deeply, and turn ambitious ideas into polished, working products.
+
+            Driven by curiosity and a passion for problem-solving, I'm constantly exploring new technologies and finding better ways to engineer robust, elegant, and impactful software.
           </p>
         </div>
       </div>

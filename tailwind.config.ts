@@ -15,19 +15,15 @@ export default {
     extend: {
       fontFamily: {
         sans: [
-          'Inter',
+          'Space Grotesk',
           '-apple-system',
           'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
           'sans-serif'
         ],
-        inter: [
-          'Inter',
+        'space-grotesk': [
+          'Space Grotesk',
           '-apple-system',
           'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
           'sans-serif'
         ],
       },

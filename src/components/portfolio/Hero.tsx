@@ -6,18 +6,12 @@ import LightRays from "@/components/ui/LightRays";
 export const Hero = () => {
   const typewriterWords = [
     {
-      text: "Full",
+      text: "Software",
     },
     {
-      text: "Stack",
+      text: "Engineer",
+      className: "text-blue-500 dark:text-blue-500"
     },
-    {
-      text: "AI",
-      className: "text-blue-500 dark:text-blue-500",
-    },
-    {
-      text: "Developer",
-    }
   ];
 
   return (
